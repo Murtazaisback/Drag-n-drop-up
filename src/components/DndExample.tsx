@@ -85,7 +85,7 @@ const DndExample = () => {
 
     if (!destination) return;
 
-    let updatedData = [...data];
+    const updatedData = [...data];
 
     if (type === "COLUMN") {
       const [movedColumn] = updatedData.splice(source.index, 1);

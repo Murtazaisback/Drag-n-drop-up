@@ -100,16 +100,13 @@ grid-template-columns: 0.2fr 1fr;
 grid-template-rows: 1fr;
 grid-column-gap: 0px;
 grid-row-gap: 0px;
-/* padding-right: 30px; */
 width: 100%;
 }
 .main_section{
   width: 100%;
-  /* background-color: red; */
 }
 
 .dnd-custom{
-  /* Hide scrollbar for modern browsers */
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; 
+  -ms-overflow-style: none;
 }
